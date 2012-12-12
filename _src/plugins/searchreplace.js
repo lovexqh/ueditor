@@ -17,7 +17,6 @@ UE.plugins['searchreplace'] = function(){
         first = null;
     });
     me.commands['searchreplace'] = {
-
             execCommand : function(cmdName,opt){
                	var me = this,
                     sel = me.selection,
